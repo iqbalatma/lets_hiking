@@ -4,7 +4,7 @@ Metodologi Pernagkat Lunak.
 
 
 jadwal : senin pagi / siang
-deadline : hari selasa jam 8 pagi
+deadline : hari selasa jam 8 pagi (Hari Senin Udah harus kirim)
 
 
 
