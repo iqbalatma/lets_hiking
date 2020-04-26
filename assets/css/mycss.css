@@ -1,0 +1,92 @@
+html,
+body {
+    height: 100%;
+}
+
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+
+/* Tutup Navbar */
+
+
+/* utility */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+
+/* tutup utility */
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url(../img/jumbotron3.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.jumbotron .display-4 {
+    color: white !important;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 62px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+
+/* footer */
+
+footer {
+    margin-top: -31.9px;
+    background-color: rgb(18, 25, 36);
+    color: rgb(28, 51, 88);
+}
+
+
+/* DESKTOP VERSION */
+
+@media (min-width:992px) {
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    /* .nav-link:hover {
+        border-bottom: 3px solid #0B63DC;
+    } */
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron {
+        margin-top: -130px;
+    }
+}
+
+
+/* @media (min-width: 992px) {
+    ...
+} */
