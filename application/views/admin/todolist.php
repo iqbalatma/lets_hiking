@@ -10,7 +10,7 @@
             </div>
 
             <ul>
-                <li><strike>Membuat Alert Validasi</strike></li>
+                <li>Membuat Alert Validasi</li>
                 <li>Membuat Profile Menjadi Bulat</li>
                 <li>Tampilan Per satu konten</li>
                 <li>Upload image disimpan di file assets/img</li>
